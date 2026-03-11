@@ -1,4 +1,9 @@
 ````
+git clone https://github.com/kub1komid/mediamtx.git
+````
+
+
+````
 tar -xzf mediamtx_v1.15.0_linux_amd64.tar.gz
 ````
 ````
