@@ -1,5 +1,9 @@
+````
 tar -xzf mediamtx_v1.15.0_linux_amd64.tar.gz
+````
+````
 chmod +x mediamtx
+````
 ./mediamtx
 
 cp mediamtx /usr/local/bin
