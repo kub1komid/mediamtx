@@ -28,7 +28,7 @@ paths:
   # Settings under path "all_others" are applied to all paths that
   # do not match another entry.
   all_others:
-```
+````
 sudo nano /etc/systemd/system/mediamtx.service
 
 [Unit]
