@@ -11,8 +11,12 @@ chmod +x mediamtx
 ````
 ./mediamtx
 
-````cp mediamtx /usr/local/bin````
+````
+cp mediamtx /usr/local/bin
+````
+````
 cp mediamtx.yml /usr/local/etc
+````
 
 
 paths:
