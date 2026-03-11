@@ -50,10 +50,14 @@ WantedBy=multi-user.target
 ````
 
 # Muat ulang konfigurasi
+````
 sudo systemctl daemon-reload
-
+````
 # Jalankan MediaMTX sekarang
+````
 sudo systemctl start mediamtx
-
+````
 # Aktifkan agar otomatis jalan saat booting
+````
 sudo systemctl enable mediamtx
+````
