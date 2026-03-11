@@ -18,7 +18,7 @@ cp mediamtx /usr/local/bin
 cp mediamtx.yml /usr/local/etc
 ````
 
-
+````
 paths:
   # example:
   # my_camera:
@@ -28,7 +28,7 @@ paths:
   # Settings under path "all_others" are applied to all paths that
   # do not match another entry.
   all_others:
-
+```
 sudo nano /etc/systemd/system/mediamtx.service
 
 [Unit]
