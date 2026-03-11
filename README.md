@@ -29,8 +29,12 @@ paths:
   # do not match another entry.
   all_others:
 ````
-sudo nano /etc/systemd/system/mediamtx.service
 
+````
+sudo nano /etc/systemd/system/mediamtx.service
+````
+
+````
 [Unit]
 Description=MediaMTX Media Server
 After=network.target
@@ -43,7 +47,7 @@ RestartSec=3
 
 [Install]
 WantedBy=multi-user.target
-
+````
 
 # Muat ulang konfigurasi
 sudo systemctl daemon-reload
